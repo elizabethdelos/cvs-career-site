@@ -7510,3 +7510,75 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #corporate .related-content .related-content-link-wrap a:hover {
     text-decoration: underline;
 }
+
+/* Indy DC Page */
+
+#indy-dc-hero .hero-content.hero-full-image {
+    min-height: 425px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_3009_Indy_DC_Header_updated.jpg) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #indy-dc-hero .hero-content.hero-full-image {
+    min-height: 625px;
+    }
+    
+    #indy-dc-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+        width:350px;
+    }
+    
+    #indy-dc-hero .hero-content.hero-full-image .text-overlay {
+        left:0px;
+    }
+    
+    #indy-dc-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: 15px !important;
+}
+    
+    #indy-dc-hero .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #indy-dc-hero .hero-content.hero-full-image .text-overlay {
+        top:40px;
+        max-width: 550px;
+    }
+    
+    #indy-dc-hero .hero-content.hero-full-image .text-overlay h1 {
+        max-width: 550px;
+    }
+    
+    #indy-dc-hero .hero-content.hero-full-image .text-overlay p {
+        width: 500px;
+    }
+}
+
+#indy-dc-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#indy-dc-hero .hero-content.hero-full-image .text-overlay h3 {
+    left: 25px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#indy-dc-hero .hero-content.hero-full-image .text-overlay p {
+    top:10px
+}
+
+#indy-dc-hero .hero-content.hero-full-image .mobile-hero {
+    display: none;
+}
