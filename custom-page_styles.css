@@ -23,7 +23,7 @@
 
 #awards-hero .hero-content.hero-full-image {
     background: #e9e9e9;
-    min-height: 300px;
+    min-height: 320px;
 }
 
 #awards-hero .hero-content.hero-full-image .text-overlay p {
@@ -7531,6 +7531,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     
     #indy-dc-hero .hero-content.hero-full-image .text-overlay {
         left:0px;
+        top:40px;
     }
     
     #indy-dc-hero .hero-content.hero-full-image .text-overlay h1:before {
