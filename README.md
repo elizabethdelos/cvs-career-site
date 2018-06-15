@@ -24,7 +24,7 @@ Here is an example of what should be added to the top of each landing page (if t
 <div class="searchBar gray-search">&nbsp;</div>
 <section id="howtoapply">
 ```
-If scripts are not needed, just added the custom-page_styles.css file.
+If scripts are not needed, just add the custom-page_styles.css file.
 
 ### Still need help?
 
