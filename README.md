@@ -11,9 +11,8 @@ These are all third-party css and javascript plugins to add dynamic elements to 
 
 ### Instructions for referencing files in SmashFly html editor
 
-After forking this repository, you can make edits to the custom-page_styles.css file and also upload additional files to host and reference if you wish. 
 
-If the html file you're editing is referencing muliptile css files and javascript files (like the example below), make sure to place the custom-page_styles.css file or any newly created css files after the Lity, OwlCarousel and RoyalSlider files. Also, if the page you're editing has is referencing a <script>, make sure you hit the <strong>Design</strong> button and then <strong>Update</strong> after editing the html, or else SmashFly with for some reason strip the rest of your code. It's always a good idea to keep a local copy of the file/code in the case that this happens. 
+If the html file you're editing is referencing muliptile css files and javascript files (like the example below), make sure to place the custom-page_styles.css file or any newly created css files after the Lity, OwlCarousel and RoyalSlider files. Also, if the page you're editing has is referencing a script, make sure you hit the <strong>Design</strong> button and then <strong>Update</strong> after editing the html, or else SmashFly will for some reason strip the rest of your code. It's always a good idea to keep a local copy of the html file/code in the case that this happens. 
 
 ```
 <link href="https://hireclix.github.io/cvs-career-site/lity/lity.css" rel="stylesheet">
