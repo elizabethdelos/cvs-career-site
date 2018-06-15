@@ -2888,8 +2888,16 @@
 }
 
 @media screen and (min-width: 800px) {
-#military .military-profiles ul>li {
+#military .military-profiles.five ul>li {
     width: 18% !important;
+    margin:0 auto 20px;
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 800px) {
+#military .military-profiles.six ul>li {
+    width: 28% !important;
     margin:0 auto 20px;
     text-align: center;
 }
